@@ -1,3 +1,9 @@
+/*
+Task 1
+File Copy: Write a C program to copy a file using file operations
+
+*/
+
 #include <stdio.h>
 
 // Function to open a file
@@ -65,3 +71,17 @@ int main()
 
    return 0;
 }
+
+
+/*
+Sample output
+
+Enter the source file name: source.txt
+Enter the destination file name: destination.txt
+File copied successfully.
+
+Enter the source file name: abc.txt
+Enter the destination file name: def.txt
+Unable to open the file or file not found: abc.txt
+
+*/
